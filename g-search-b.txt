@@ -1,0 +1,11 @@
+<style type="text/css">
+#haisob-searchbox{background:url(http://1.bp.blogspot.com/-NN0X9atWQVA/Ue7BSA-RMFI/AAAAAAAAAh0/hlsMUg1hQko/s1600/noxdo_blogspot_com_Search-icon5.png) no-repeat scroll center center transparent;width:307px;height:50px;disaply:block;}
+form#haisob-searchform{display: block;padding: 12px;margin:0;}
+form#haisob-searchform #s{padding: 6px 6px 6px 26px;margin:0;width: 215px;font-size:14px;vertical-align: top;border:none;background:transparent;}
+form#haisob-searchform #sbutton{margin:0;padding:0;height:30px;width:30px;vertical-align: top;border:none;background:transparent;}
+</style>
+<div id="haisob-searchbox">
+<form id="haisob-searchform" action="/search/max-results=8" method="get">
+    <input type="text" id="s" name="q" value=""/>
+</form>
+</div>
