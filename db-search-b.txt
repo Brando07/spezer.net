@@ -1,0 +1,12 @@
+<style>
+#haisob-searchblack1 { background:#222222; border-radius:10px; width:290px; }
+#haisob-searchblackbox1 { padding:10px; }
+#haisob-searchblacksubmit1 { border:1px solid #222222; background:#dc4523; padding:5px; color:#ffffff; font:14px verdana; }
+#haisob-searchblackinput1 { -moz-border-radius:10px; -khtml-border-radius:10px; -webkit-border-radius:10px; border:1px solid #ffffff; background:#ffffff; padding:5px; color:#888888; font:14px verdana; }
+</style>
+<div id='haisob-searchblack1'>
+         <form action='/search/max-results=8'  method='get' id="haisob-searchblackbox1">
+            <input name='q' id='haisob-searchblackinput1' onblur='if (this.value == "") {this.value = "Search this site...";}' onfocus='if (this.value == "Search this site...") {this.value = ""}' type='text' value='Search this site...'/>
+            <input id='haisob-searchblacksubmit1' type='submit' value='Search'/>
+         </form>
+      </div>
