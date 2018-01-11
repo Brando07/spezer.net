@@ -1,0 +1,15 @@
+<style>
+#haisob-searchexpandbox1 { padding:10px; ; }
+#haisob-searchexpandsubmit1 { border:1px solid #111111; background:#111111; padding:5px; color:#ffffff; font:14px verdana; ; }
+#haisob-searchexpandinput1{-moz-border-radius:10px; -khtml-border-radius:10px; -webkit-border-radius:10px; border:1px solid #dcdcdc; background:#ffffff; padding:5px; color:#888888; font:14px verdana; transition:width 2s; -webkit-transition:width 2s; /* Safari */
+-o-transition:width 2s; /* Opera*/
+-moz-transition:width 2s; /* firefox*/
+width:65px; }
+#haisob-searchexpandinput1:hover { width:200px; ; }
+</style>
+<div id='haisob-searchexpand1'>
+         <form action='/search/max-results=8'  method='get' id="haisob-searchexpandbox1">
+            <input name='q' id='haisob-searchexpandinput1' onblur='if (this.value == "") {this.value = "Search this site...";}' onfocus='if (this.value == "Search this site...") {this.value = ""}' type='text' value='Search this site...'/>
+            <input id='haisob-searchexpandsubmit1' type='submit' value='Search'/>
+         </form>
+      </div>
