@@ -1,0 +1,20 @@
+<style>
+#haisob-searchblue1{background:rgb(37,141,200); /* Old browsers */
+background:-moz-linear-gradient(top,rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* FF3.6+ */
+background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(37,141,200,1)),color-stop(100%,rgba(37,141,200,1))); /* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top,rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top,rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Opera 11.10+ */
+background:-ms-linear-gradient(top,rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* IE10+ */
+background:linear-gradient(to bottom,rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8',endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+border-radius:10px; width:290px}
+#haisob-searchbluebox1 { padding:10px; }
+#haisob-searchbluesubmit1 { border:1px solid orange; background:orange; padding:5px; color:#ffffff; font:14px verdana; }
+#haisob-searchblueinput1 { -moz-border-radius:10px; -khtml-border-radius:10px; -webkit-border-radius:10px; border:1px solid #ffffff; background:#ffffff; padding:5px; color:#888888; font:14px verdana; }
+</style>
+<div id='haisob-searchblue1'>
+         <form action='/search/max-results=8'  method='get' id="haisob-searchbluebox1">
+            <input name='q' id='wc-searchblueinput1' onblur='if (this.value == "") {this.value = "Search this site...";}' onfocus='if (this.value == "Search this site...") {this.value = ""}' type='text' value='Search this site...'/>
+            <input id='haisob-searchbluesubmit1' type='submit' value='Search'/>
+         </form>
+      </div>
