@@ -1,0 +1,11 @@
+<style>
+#haisobOldSearch { display:block; clear:both; margin:10px 0; }
+#haisobOldSearch #haisobSinput { background:url(http://4.bp.blogspot.com/-C7mh2vX4gp4/Ue6-L3iTnXI/AAAAAAAAAhI/-K6xVaVoM1g/s1600/noxdo_blogspot_com_Search-icon.png) no-repeat scroll 8px center transparent !important; padding:7px 15px 7px 35px !important; color:#444; font-weight:bold; text-decoration:none; border:1px solid #D3D3D3 !important; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; -webkit-box-shadow:1px 1px 2px #CCC inset; -moz-box-shadow:1px 1px 2px #CCC inset; box-shadow:1px 1px 2px #CCC inset; width:52%; }
+#haisobOldSearch #haisobSsubmit { color:#444; font-weight:bold; text-decoration:none; padding:6px 15px; border:1px solid #D3D3D3; cursor:pointer; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:#fbfbfb; background:-moz-linear-gradient(top,#fbfbfb 0%,#f4f4f4 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fbfbfb),color-stop(100%,#f4f4f4)); background:-webkit-linear-gradient(top,#fbfbfb 0%,#f4f4f4 100%); background:-o-linear-gradient(top,#fbfbfb 0%,#f4f4f4 100%); background:-ms-linear-gradient(top,#fbfbfb 0%,#f4f4f4 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBFBFB',endColorstr='#F4F4F4',GradientType=0 ); background:linear-gradient(top,#fbfbfb 0%,#f4f4f4 100%); }
+</style>
+ <div id="haisobOldSearch">
+    <form action="/search/max-results=8">
+        <input name="q" id="haisobSinput" type="text" />
+        <input value="Search" id="haisobSsubmit" type="submit" />
+    </form>
+</div>
