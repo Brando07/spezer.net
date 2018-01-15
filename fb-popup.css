@@ -1,0 +1,15 @@
+#fblikepop{background:#555;display:none; position:fixed; top:200px; _position:absolute;
+width:450px; border:10px solid #444; z-index:200; margin:0; padding:0; color:#111; text-align:left; font-family:arial,sans-serif; font-size:13px}
+#fblikepop body { none repeat scroll 0%; line-height:1; margin:0; height:100%; }
+.fbflush { cursor:pointer; font-size:11px !important;  !important; text-decoration:none !important; border:0 !important; }
+#fblikebg{display:none; position:fixed; _position:absolute;
+height:100%; width:100%; top:0; left:0; background:#000000; z-index:100}
+#fblikepop #closeable { float:right; margin:7px 15px 0 0;color:#111 }
+#fblikepop #closeable a{ float:right; margin:7px 15px 0 0;color:#111 }
+#fblikepop h1 { background:#D67D23 none repeat scroll 0 0;border-bottom:2px solid #444;  color:#111 !important; font-size:14px !important; font-weight:normal !important; padding:10px !important; margin:0 !important; font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif !important; }
+#fblikepop #actionHolder {height:23px; overflow:hidden; }
+#fblikepop #buttonArea { background:#D67D23; padding:10px; min-height:50px;border-top:2px solid #444;  }
+#fblikepop #buttonArea a { color:#111 !important; text-decoration:none !important; border:0 !important; font-size:10px !important; }
+#fblikepop #buttonArea a:hover { color:#111 !important; text-decoration:none !important; border:0 !important; }
+#fblikepop #popupMessage { font-size:12px !important; font-weight:normal !important; line-height:22px; padding:8px;  !important; }
+#fblikepop #counter-display { float:right; font-size:11px !important; font-weight:normal !important; margin:5px 0 0 0; text-align:right; line-height:16px;
