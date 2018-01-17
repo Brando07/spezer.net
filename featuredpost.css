@@ -1,0 +1,23 @@
+/*Featpost Spezer.net*/
+.featuredpost { max-height:315px; position:relative; overflow:hidden; }
+#autoslide .widget > h2,#manualslide .widget > h2 { display:none; }
+#autoslide .widget,#manualslide .widget { margin:10px 10px 15px 5px; }
+.featuredpost ul,.featuredpost li,.featuredpost ol { padding:0; margin:0; list-style:none; }
+#autoslide .widget-content { margin:10px; }
+.featuredpost .featpost li { overflow:hidden; height:315px; position:relative; }
+.featuredpost .featpost img { width:100%; height:100%; }
+.featuredpost .labeltext { bottom:50px; position:absolute; max-width:80%; padding:10px; background-color: #fff; color:#000; }
+.featuredpost .labeltext strong { font-size:130%; font-weight:bold; }
+.featuredpost .labeltext a { color:$(wid.headtex.color); text-decoration:none; }
+.featuredpost .labeltext p { margin:5px 0 0; }
+.featuredpost .flex-control-paging { position:absolute; bottom:10px; right:10px; }
+.featuredpost .flex-control-paging li { float:left; margin:0 4px; }
+.featuredpost .flex-control-paging a { display:block; background-color:#4178b5; text-indent:-9999px; width:15px; height:15px; cursor:pointer; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; }
+.featuredpost .flex-control-paging a.flex-active { background-color:#0b944b; }
+.featuredpost .flex-direction-nav a { top:50%; position:absolute; width:30px; height:30px; margin-top:-15px; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; background-color:#0b944b; text-indent:-9999px; display:none; }
+.featuredpost .flex-direction-nav a.flex-next { right:10px; }
+.featuredpost .flex-direction-nav a.flex-prev { left:10px; }
+.featuredpost:hover .flex-direction-nav a { display:block; outline:0; }
+.featuredpost .flex-direction-nav i { width:0; height:0; position:absolute; top:50%; left:50%; margin-top:-6px; border:6px solid transparent; }
+.featuredpost .flex-direction-nav a.flex-next i { margin-left:-2px; border-left-color:#FFFFFF; }
+.featuredpost .flex-direction-nav a.flex-prev i { margin-left:-10px; border-right-color:#FFFFFF; }
